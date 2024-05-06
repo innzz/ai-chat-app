@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        domains: ["scintillating-lemur-470.convex.cloud"],
+      },
+
+};
 
 export default nextConfig;
